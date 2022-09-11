@@ -1,7 +1,7 @@
 # 5.wap to find the roots of a quadratic equation.
 import math
 
-a, b, c = map(int, input('Enter the roots of equation ').split())
+a, b, c = map(int, input('Enter the value of a, b, c ').split())
 
 d = b * b - 4 * a * c
 if d == 0:
