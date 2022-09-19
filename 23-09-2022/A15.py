@@ -6,10 +6,7 @@ def armstrong(a):
     while a > 0:
         s+= (a % 10) ** 3
         a//=10
-    if x == s:
-        return True
-    else:
-        return False
+    return x == s
 
 x = int(input("Enter the number "))
 a = armstrong(x)
