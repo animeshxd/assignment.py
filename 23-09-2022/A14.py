@@ -2,14 +2,19 @@
 
 a = int(input("Enter the number "))
 
-r = 0
-x = a
+def palindrome(a: int):
+    r = 0
+    x = a
 
-while a > 0:
-    r = r * 10 + a % 10
-    a//=10
+    while a > 0:
+        r = r * 10 + a % 10
+        a//=10
 
-if x == r:
+    return x == r
+
+b = palindrome(a)
+
+if b:
     print("palindrome")
 else:
     print("not palindrome")
