@@ -6,6 +6,8 @@ a = 'Sachin'
 b = 'Ramesh'
 c = 'Tendulkar'
 
+print(a,b,c)
+
 s = a[0] + '.' + b[0] + '.' + c
 
 print(s)
