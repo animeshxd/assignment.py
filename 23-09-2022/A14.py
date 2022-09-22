@@ -2,7 +2,7 @@
 
 a = int(input("Enter the number "))
 
-def palindrome(a: int):
+def palindrome(a):
     r = 0
     x = a
 
